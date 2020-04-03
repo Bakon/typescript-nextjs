@@ -6,7 +6,7 @@ export default function Main(): ReactElement {
     return (
         <StyledContainer>
             <Head>
-                <title>Portfolio Julio Schilders</title>
+                <title>TS Next</title>
             </Head>
             <h1>hello world!</h1>
         </StyledContainer>
