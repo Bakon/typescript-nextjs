@@ -22,7 +22,12 @@
         "allowSyntheticDefaultImports": true,
         "allowJs": true,
         "noEmit": true,
-        "noFallthroughCasesInSwitch": true
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedParameters": false,
+        "noUnusedLocals": false,
+        "noImplicitReturns": false,
+        "noImplicitThis": false,
+        "noImplicitAny": false
     },
     "exclude": ["node_modules", "dist"],
     "include": ["@types/next-env.d.ts", "**/*.ts", "**/*.tsx"]
